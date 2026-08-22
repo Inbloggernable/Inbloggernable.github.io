@@ -10,8 +10,7 @@ window.INBLOGGERNABLE={
   learning:[
     {title:"Francés",label:"VÍDEOS + RECURSOS",description:"Gramática, vocabulario y materiales organizados por nivel.",status:"soon",statusText:"Llenando la balda"},
     {title:"Lengua y Literatura",label:"ESO + BACH",description:"Sintaxis, comentario de texto, literatura y recursos para aprender sin convertirlo todo en un ladrillo.",status:"soon",statusText:"En preparación"},
-    {title:"Español para extranjeros",label:"ELE",description:"Curso general y, más adelante, recorridos pensados para hablantes de distintas lenguas.",status:"soon",statusText:"En proyecto"},
-    {title:"Oposiciones",label:"ALGÚN DÍA",description:"Apuntes y materiales de preparación. Primero habrá que aprobar la puta oposición.",status:"soon",statusText:"Hay prioridades"}
+    {title:"Español para extranjeros",label:"ELE",description:"Curso general y, más adelante, recorridos pensados para hablantes de distintas lenguas.",status:"soon",statusText:"En proyecto"}
   ],
   teachers:[
     {title:"Materiales de aula",label:"DESCARGABLES",description:"Secuencias, rúbricas, fichas, esquemas y recursos listos para usar y adaptar.",status:"soon",statusText:"Próximamente"},
