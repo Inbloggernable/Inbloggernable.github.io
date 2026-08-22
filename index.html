@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Inbloggernable: recursos educativos, materiales para profes y experimentos digitales.">
+  <meta name="theme-color" content="#FFDE59">
+  <title>inbloggernable</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+  <header class="site-header">
+    <div class="shell header-inner">
+      <a class="wordmark" href="#inicio" aria-label="inbloggernable, inicio">inbloggernable<span class="brand-dot">.</span></a>
+      <button class="menu-button" id="menuButton" type="button" aria-expanded="false" aria-controls="siteNav">MENÚ</button>
+      <nav class="site-nav" id="siteNav" aria-label="Navegación principal">
+        <a href="#aprender">Aprender</a>
+        <a href="#profes">Para profes</a>
+        <a href="#laboratorio">Laboratorio</a>
+        <a href="#sobre">Sobre esto</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenido">
+    <section class="hero" id="inicio">
+      <div class="shell hero-grid">
+        <div>
+          <p class="eyebrow">INBLOGGERNABLE</p>
+          <h1>Cosas que <mark>aprendo</mark>, enseño y construyo.</h1>
+          <p class="hero-copy">Recursos educativos, herramientas y experimentos que empezaron porque me dio por investigar algo y acabaron siendo útiles.</p>
+          <div class="hero-actions">
+            <a class="button button-dark" href="#destacados">VER LO QUE HAY</a>
+            <a class="text-link" href="#sobre">¿Qué es esto?</a>
+          </div>
+        </div>
+        <aside class="hero-note" aria-label="Nota">
+          <strong>En construcción permanente.</strong>
+          <p>La estructura ya está. Las baldas se irán llenando sin convertir cada idea nueva en una mudanza.</p>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section" id="destacados">
+      <div class="shell">
+        <div class="section-heading"><p class="eyebrow">AHORA MISMO</p><h2>Ya puedes tocar esto.</h2></div>
+        <div class="cards cards-featured" id="featuredProjects"></div>
+      </div>
+    </section>
+
+    <section class="section section-soft" id="aprender">
+      <div class="shell">
+        <div class="section-heading"><p class="eyebrow">APRENDER</p><h2>Material que explica cosas sin marearte.</h2></div>
+        <div class="cards" id="learningProjects"></div>
+      </div>
+    </section>
+
+    <section class="section" id="profes">
+      <div class="shell">
+        <div class="section-heading"><p class="eyebrow">PARA PROFES</p><h2>Menos tiempo peleándote con el trabajo mecánico.</h2></div>
+        <div class="cards" id="teacherProjects"></div>
+      </div>
+    </section>
+
+    <section class="section section-dark" id="laboratorio">
+      <div class="shell">
+        <div class="section-heading">
+          <p class="eyebrow">LABORATORIO</p>
+          <h2>Experimentos que se me fueron un poco de las manos.</h2>
+          <p>Apps, herramientas y cosas que no tienen por qué pertenecer al mismo tema. Solo tienen que merecer existir.</p>
+        </div>
+        <div class="cards" id="labProjects"></div>
+      </div>
+    </section>
+
+    <section class="section" id="sobre">
+      <div class="shell about-grid">
+        <div class="section-heading"><p class="eyebrow">SOBRE ESTO</p><h2>No es una academia. Tampoco un portfolio solemne.</h2></div>
+        <div class="about-copy">
+          <p><strong>Inbloggernable</strong> es la casa común de lo que voy creando: materiales de Lengua, Francés y ELE, recursos para profes, pequeñas herramientas digitales y proyectos que existen simplemente porque quería comprobar si podía hacerlos.</p>
+          <p>Habrá cosas gratis, otras descargables y quizá algunas de pago. La regla es bastante simple: <mark>que sirvan para algo</mark>.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-yellow" id="seguir">
+      <div class="shell follow-grid">
+        <div>
+          <p class="eyebrow">SEGUIR LA PISTA</p>
+          <h2>Las redes serán puertas. Esta será la casa.</h2>
+          <p>YouTube, Instagram y lo que venga después llevarán aquí. La web no depende de ninguna plataforma.</p>
+        </div>
+        <div class="social-placeholder" id="socialLinks" aria-live="polite"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="shell footer-inner">
+      <strong>inbloggernable<span class="brand-dot">.</span></strong>
+      <span>Hecho sin humo y con demasiadas pestañas abiertas.</span>
+    </div>
+  </footer>
+
+  <script src="content.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
