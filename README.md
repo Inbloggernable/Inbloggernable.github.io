@@ -1,4 +1,4 @@
-# inbloggernable · v0.1
+# inbloggernable · v0.3
 
 La BILLY ya está montada.
 
@@ -10,15 +10,21 @@ La BILLY ya está montada.
 - `favicon.svg` → icono provisional
 
 ## Publicar en GitHub Pages
-1. Crea un repositorio público llamado `inbloggernable`.
-2. Sube estos archivos a la raíz.
-3. Pulsa **Commit changes**.
-4. Ve a **Settings → Pages**.
-5. En *Build and deployment*, elige **Deploy from a branch**.
-6. Selecciona `main` y `/ (root)`.
-7. Guarda.
+1. Sube estos archivos a la raíz de `Inbloggernable/Inbloggernable`.
+2. Haz **Commit changes**.
+3. Ve a **Settings → Pages**.
+4. En *Build and deployment*, elige **Deploy from a branch**.
+5. Selecciona `main` y `/ (root)`.
+6. Guarda.
 
-La dirección quedará como `https://TU-USUARIO.github.io/inbloggernable/`.
+La landing quedará en:
+`https://inbloggernable.github.io/Inbloggernable/`
 
-## Modificarla sin tocar el diseño
+## Hiit Me Baby
+Hiit Me Baby se queda en su ubicación actual y la landing apunta a:
+`https://laputamarga-cloud.github.io/Hiit-me-baby/`
+
+Es un proyecto experimental independiente y no hace falta transferirlo a la organización.
+
+## Modificar la web sin tocar el diseño
 Edita `content.js` desde GitHub. Ahí están las tarjetas, textos y enlaces.
