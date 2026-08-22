@@ -22,7 +22,7 @@ window.INBLOGGERNABLE={
     {title:"Siguiente cacharro",label:"???",description:"Esta balda está vacía aposta. No tardará demasiado, siendo sinceros.",status:"soon",statusText:"Vacante"}
   ],
   socials:[
-    {name:"YouTube",url:null},
-    {name:"Instagram",url:null}
+  {name:"Instagram",url:"https://www.instagram.com/inbloggernable/"},
+  {name:"YouTube",url:"https://www.youtube.com/@inbloggernable"}
   ]
 };
